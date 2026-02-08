@@ -1,19 +1,26 @@
+import { Youtube } from "lucide-react";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-primary text-primary-foreground py-16">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="grid md:grid-cols-3 gap-12 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-12">
           {/* Brand */}
           <div>
             <h3 className="font-display text-2xl font-semibold mb-4">
               Heritage <span className="text-heritage-gold">Baptist</span>
             </h3>
-            <p className="font-body text-sm text-primary-foreground/60 leading-relaxed">
+            <p className="font-body text-sm text-primary-foreground/60 leading-relaxed mb-4">
               Worshipping Christ in Community.
               <br />
               Learning · Loving · Looking · Longing
+            </p>
+            <p className="font-body text-sm text-primary-foreground/60">
+              5200 Heidorn Ranch Rd
+              <br />
+              Antioch, CA 94531
             </p>
           </div>
 
@@ -45,32 +52,27 @@ const Footer = () => {
             </nav>
           </div>
 
-          {/* Service Times */}
+          {/* Connect */}
           <div>
             <h4 className="font-body text-sm font-semibold tracking-wider uppercase mb-4 text-heritage-gold">
-              Gather With Us
+              Connect
             </h4>
-            <div className="font-body text-sm text-primary-foreground/60 space-y-2">
-              <p>
-                <span className="text-primary-foreground/80 font-medium">Sunday Bible Study</span>
-                <br />
-                9:30 AM
-              </p>
-              <p>
-                <span className="text-primary-foreground/80 font-medium">Sunday Worship</span>
-                <br />
-                10:30 AM
-              </p>
-              <p>
-                <span className="text-primary-foreground/80 font-medium">Thursday Bible Study &amp; Prayer</span>
-                <br />
-                7:00 PM
-              </p>
-              <p className="pt-2">
-                5200 Heidorn Ranch Rd
-                <br />
-                Antioch, CA 94531
-              </p>
+            <div className="font-body text-sm text-primary-foreground/60 space-y-3">
+              <a
+                href="mailto:pastorevan@heritagebaptistacademy.com"
+                className="block hover:text-heritage-gold transition-colors break-all"
+              >
+                pastorevan@heritagebaptistacademy.com
+              </a>
+              <a
+                href="https://www.youtube.com/@heritageantioch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:text-heritage-gold transition-colors"
+              >
+                <Youtube size={16} />
+                Watch Sermons
+              </a>
             </div>
           </div>
         </div>
