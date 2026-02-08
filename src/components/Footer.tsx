@@ -52,14 +52,24 @@ const Footer = () => {
             </h4>
             <div className="font-body text-sm text-primary-foreground/60 space-y-2">
               <p>
-                <span className="text-primary-foreground/80 font-medium">Sunday Morning</span>
+                <span className="text-primary-foreground/80 font-medium">Sunday Bible Study</span>
+                <br />
+                9:30 AM
+              </p>
+              <p>
+                <span className="text-primary-foreground/80 font-medium">Sunday Worship</span>
                 <br />
                 10:30 AM
               </p>
               <p>
-                <span className="text-primary-foreground/80 font-medium">Wednesday Evening</span>
+                <span className="text-primary-foreground/80 font-medium">Thursday Bible Study &amp; Prayer</span>
                 <br />
                 7:00 PM
+              </p>
+              <p className="pt-2">
+                5200 Heidorn Ranch Rd
+                <br />
+                Antioch, CA 94531
               </p>
             </div>
           </div>
