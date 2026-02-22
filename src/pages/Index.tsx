@@ -4,6 +4,7 @@ import WelcomeSection from "@/components/WelcomeSection";
 import WhyHeritageSection from "@/components/WhyHeritageSection";
 import CommitmentsSection from "@/components/CommitmentsSection";
 import PastorSection from "@/components/PastorSection";
+import PhotoStrip from "@/components/PhotoStrip";
 import VisitSection from "@/components/VisitSection";
 import Footer from "@/components/Footer";
 
@@ -16,6 +17,7 @@ const Index = () => {
         <WelcomeSection />
         <WhyHeritageSection />
         <CommitmentsSection />
+        <PhotoStrip />
         <PastorSection />
         <VisitSection />
       </main>
