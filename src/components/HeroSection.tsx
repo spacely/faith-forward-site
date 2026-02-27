@@ -26,7 +26,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <p className="font-body text-sm md:text-base tracking-[0.3em] uppercase text-heritage-gold mb-6">
+          <p className="font-body text-base md:text-lg tracking-[0.3em] uppercase text-heritage-gold mb-6">
             Worshipping Christ in Community
           </p>
         </motion.div>

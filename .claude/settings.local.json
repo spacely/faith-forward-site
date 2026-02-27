@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npx vite build:*)",
+      "Bash(npm install:*)",
+      "Bash(git -C /Users/saheedadepoju/Documents/faith-forward-site remote -v)",
+      "Bash(sips:*)",
+      "Bash(ls:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh api:*)",
+      "Bash(brew list:*)",
+      "Bash(node -e:*)",
+      "Bash(kill:*)",
+      "WebFetch(domain:spacely.github.io)",
+      "Bash(git -C /Users/saheedadepoju/Documents/faith-forward-site branch -r)"
+    ]
+  }
+}
